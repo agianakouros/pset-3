@@ -9,10 +9,15 @@ const NICKEL = 5;
 
 const amount = Number(readlineSync.question("\nEnter a dollar amount: "));
 
+
 if (Number.isNaN(amount)) {
     console.log("\nInvalid")
+
+
 } else if (amount < MIN || amount > MAX) {
     console.log("\nInvalid")
+
+
 } else {
 
 let whole = (amount * 100);
