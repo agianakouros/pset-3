@@ -6,11 +6,11 @@ const MAX = Number.MAX_SAFE_INTEGER;
 const year = Number(readlineSync.question("\nEnter a year: "));
 
     if (Number.isNaN(year)) {
-    console.log("\nInvalid.")
+    console.log("\nInvalid.\n")
   } else if (year < MIN || year > MAX) {
-    console.log("\nInvalid.")
+    console.log("\nInvalid.\n")
   } else if (year % 4 === 0) {
-    console.log("\n" + year + " is a leap year.")
+    console.log("\n" + year + " is a leap year.\n")
   } else {
-    console.log("\n" + year + " is not a leap year.")
+    console.log("\n" + year + " is not a leap year.\n")
   }

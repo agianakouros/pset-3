@@ -28,23 +28,23 @@ if (Number.isNaN(a)) {
   } else {
 
     if ((a === b) && (b === c)) {
-    console.log("\nEqual.")
+    console.log("\nEqual.\n")
   } else if ((a === b) && (b < c)) {
-    console.log("\nIncreasing.")
+    console.log("\nIncreasing.\n")
   } else if ((a < b) && (b === c)) {
-    console.log("\nIncreasing.")
+    console.log("\nIncreasing.\n")
   } else if ((a < b) && (b < c)) {
-    console.log("\nStrictly increasing.")
+    console.log("\nStrictly increasing.\n")
   } else if ((a > b) && (b > c)) {
-    console.log("\nStrictly decreasing.")
+    console.log("\nStrictly decreasing.\n")
   } else if ((a === b) && (b > c)) {
-    console.log("\nDecreasing.")
+    console.log("\nDecreasing.\n")
   } else if ((a > b) && (b === c)) {
-    console.log("\nDecreasing.")
+    console.log("\nDecreasing.\n")
   } else if ((a > b) && (b < c)) {
-    console.log("\nUnordered.")
+    console.log("\nUnordered.\n")
   } else if ((a < b) && (b > c)) {
-    console.log("\nUnordered.")
+    console.log("\nUnordered.\n")
   } else {
-    console.log("\nDecreasing.")
+    console.log("\nDecreasing.\n")
   }  }

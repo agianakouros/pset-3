@@ -12,11 +12,11 @@ if (Number.isNaN(number)) {
 
 
     } else if (number < MIN || number > MAX) {
-      console.log("\nInvalid.")
+      console.log("\nInvalid.\n")
     } else if (number > 0) {
-    console.log("\nPositive.")
+    console.log("\nPositive.\n")
     } else if (number < 0) {
-    console.log("\nNegative.")
+    console.log("\nNegative.\n")
     } else {
-    console.log("\nZero.")
+    console.log("\nZero.\n")
     }

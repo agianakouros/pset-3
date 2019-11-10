@@ -72,5 +72,5 @@ switch (firstSuit) {
         break;
 }
 
-console.log("\n" + secondRank + " of " + secondSuit)
+console.log("\n" + secondRank + " of " + secondSuit + "\n")
 }

@@ -31,5 +31,5 @@ let change2 = (change1 % DIME);
 let numOfNickels = Math.floor(change2 / NICKEL);
 let change3 = (change2 % NICKEL);
 
-console.log("\n" + numOfQuarters +  " quarters, " + numOfDimes + " dimes, " + numOfNickels + " nickels, and " + change3 + " pennies.");
+console.log("\n" + numOfQuarters +  " quarters, " + numOfDimes + " dimes, " + numOfNickels + " nickels, and " + change3 + " pennies.\n");
 }
